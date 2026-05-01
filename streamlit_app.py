@@ -123,3 +123,8 @@ if st.button("Process Report"):
         )
     else:
         st.error("Please upload both files to proceed.")
+        # --- FOOTER / VERSIONING ---
+st.markdown("---")
+st.caption("📦 **Version:** 1.0.0")
+st.caption("🚀 **Deployed:** May 1, 2026")
+st.caption("🛡️ *Note: All data is processed in-memory and is not stored on the server.*")
